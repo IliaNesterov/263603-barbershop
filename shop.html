@@ -7,7 +7,7 @@
   <body>
     <header class="main-header">
       <div class="container">
-        <a href="..">
+        <a href="#">
           <img class="header-logo" src="img/header-logo.svg" width="" height="" alt="Barbershop">
         </a>
         <nav class="main-navigation">
@@ -38,28 +38,28 @@
       <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
       <nav class="breadcrumbs">
         <ul>
-          <li><a href="..">ГЛАВАНАЯ</a></li>
-          <li><a href=".">МАГАЗИН</a></li>
+          <li><a href="#">ГЛАВАНАЯ</a></li>
+          <li><a href="#">МАГАЗИН</a></li>
           <li>СРЕДСТВА ДЛЯ УХОДА</li>
         </ul>
       </nav>
       <form class="filters" action="#" method="post">
+        <label for="baxter">ПРОИЗВОДИТЕЛИ</label>
         <fieldset class="brands">
-            <legend>ПРОИЗВОДИТЕЛИ</legend>
-            <input type="checkbox" name="baxter" checked> BAXTER OF CALIFORNIA
+            <input type="checkbox" name="baxter" id="baxter" checked> BAXTER OF CALIFORNIA
             <input type="checkbox" name="mr_natty"> MR NATTY
             <input type="checkbox" name="suavecito" checked> SUAVECITO
             <input type="checkbox" name="malin+goetz"> MALIN+GOETZ
             <input type="checkbox" name="murrays"> MURRAY'S
             <input type="checkbox" name="american_crew" checked> AMERICAN CREW
         </fieldset>
+        <label for="shave">ГРУППЫ ТОВАРОВ</label>
         <fieldset class="item_groups">
-            <legend>ГРУППЫ ТОВАРОВ</legend>
-            <input type="radio" name="group" value="shave"> БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
+            <input type="radio" name="group" id="shave" value="shave"> БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
             <input type="radio" name="group" value="care" checked> СРЕДСТВА ДЛЯ УХОДА
             <input type="radio" name="group" value="accessories"> АКСЕССУАРЫ
         </fieldset>
-        <input type="submit" name="show" id="show-id" value="ПОКАЗАТЬ">
+        <input type="submit" name="show" value="ПОКАЗАТЬ">
       </form>
       <section class="items">
         <div class="item">
